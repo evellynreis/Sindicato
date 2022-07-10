@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/php/src/Controller/Conexao.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/php/src/Controller/FiliadoController.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/php/src/Models/CargoModels.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/php/src/Models/DependenteModels.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/php/src/Models/EmpresaModels.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/php/src/Models/FiliadoModels.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/php/src/Models/SituacaoModels.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/php/src/Models/UsuarioModels.php" dialect="GenericSQL" />
+  </component>
+</project>

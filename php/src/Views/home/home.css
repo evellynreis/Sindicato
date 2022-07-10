@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/back.jpg");
+}
+
+.logo{
+    height: 50px;
+}
+
+.content{
+    margin-top: 0;
+}
+
+.container, .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.carousel{
+    height: 600px;
+    perspective: 250px;
+}
+
+.carousel .carousel-item{
+    width: 420px;
+}
+
+footer {
+    margin-top: 0;
+    background-color: #03989e;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+}

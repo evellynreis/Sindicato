@@ -1,0 +1,11 @@
+FROM php:8.1-apache
+LABEL maintainer="Evelllyn Jade"
+RUN apt-get update && apt-get install -y \
+    && docker-php-ext-install pdo pdo_mysql \
+    && docker-php-ext-install mysqli \
+    && docker-php-ext-enable mysqli \
+    && curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer \
+    && pecl install xdebug \
+    && docker-php-ext-enable xdebug \
+    && a2enmod rewrite
+EXPOSE 80
